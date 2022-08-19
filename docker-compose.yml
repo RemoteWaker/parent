@@ -1,0 +1,13 @@
+version: '2'
+services:
+  ssdp:
+    build: ./rpi
+    restart: always
+    network_mode: host
+  webserver:
+    build: ./rpi-webserver
+    restart: always
+    expose:
+      - "8080"
+    ports:
+      - "80:8080"
