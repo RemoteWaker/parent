@@ -1,0 +1,22 @@
+name: RemoteWaker
+type: sw.application
+description: >-
+  Buid an IoT system that lets you to boot up your computer remotely, wherever you are, and viewing its state
+assets:
+  repository:
+    type: blob.asset
+    data:
+      url: 'https://github.com/RemoteWaker'
+  logo:
+    type: blob.asset
+    data:
+      url: 'https://raw.githubusercontent.com/RemoteWaker/parent/main/logo.png'
+data:
+  defaultDeviceType: raspberrypi3-64
+  supportedDeviceTypes:
+    - raspberry-pi2
+    - raspberrypi3
+    - raspberrypi4-64
+    - raspberry-pi
+    - raspberrypi0-2w-64
+version: 1.0.0
