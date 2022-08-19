@@ -6,7 +6,7 @@ assets:
   repository:
     type: blob.asset
     data:
-      url: 'https://github.com/RemoteWaker'
+      url: 'https://github.com/RemoteWaker/parent'
   logo:
     type: blob.asset
     data:
