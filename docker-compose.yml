@@ -1,6 +1,4 @@
 version: '2'
-volumes:
-    resin-data:
 services:
   ssdp:
     build: ./rpi
@@ -13,5 +11,8 @@ services:
       - "8080"
     ports:
       - "80:8080"
-    volumes:
-      - 'resin-data:/data'
+  mqtt:
+    build: ./rp-mqtt
+    restart: always
+    network_mode: host
+    
