@@ -1,7 +1,9 @@
 name: RemoteWaker
 type: sw.application
 description: >-
-  Buid an IoT system that lets you to boot up your computer remotely, wherever you are, and viewing its state
+  Buid an IoT system that lets you to boot up your computer remotely, wherever you are, and viewing its state in real-time. 
+  Download the RemoteWaker app from the Play Store here -> , and create an account to link your RemoteWaker device with it. One linked,
+  the device listen from our backend server, and boot your computer when requested by your phone.
 assets:
   repository:
     type: blob.asset
